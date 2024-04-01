@@ -8,7 +8,7 @@ The Yahoo Proxy Viewer Extension is a Chrome extension that enables viewing cont
 ## Setup
 Follow these steps to get the extension up and running:
 1. <b>Proxy Setup:</b> First, deploy your own instance of the [jp-vercel-proxy](https://github.com/zett-8/jp-vercel-proxy) on Vercel. Follow the instructions on the repository to set it up.
-2. <b>Extension Installation:</b> Download this repository and load it into your Chrome browser as an unpacked extension:
+2. <b>Extension Installation:</b> Download this repository (or [latest release](https://github.com/zett-8/yahoo-proxy-viewer-extension/releases))and load it into your Chrome browser as an unpacked extension:
    - Open chrome://extensions in your Chrome-based browser.
    - Enable "Developer mode" at the top right.
    - Click on "Load unpacked" and select the downloaded repository folder.
