@@ -2,7 +2,7 @@
 The Yahoo Proxy Viewer Extension is a Chrome extension that enables viewing content from the *.yahoo.co.jp/* domain through a proxy.
 
 ## Requirements
-- A Chrome-based browser 
+- A Chromium-based browser 
 - The proxy server set up at [jp-vercel-proxy](https://github.com/zett-8/jp-vercel-proxy)
 
 ## Setup
