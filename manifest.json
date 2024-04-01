@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Yahoo JP Proxy Viewer",
+  "version": "1.0",
+  "permissions": ["webRequest", "storage"],
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["*://*.yahoo.co.jp/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yahoo proxy viewer extension - settings</title>
+    <style>
+        .wrapper {
+            max-width: 480px;
+            margin: 0 auto;
+        }
+
+        form {
+            display: grid;
+        }
+
+        label {
+            margin-bottom: 4px;
+        }
+
+        input {
+            height: 24px;
+            margin-bottom: 12px;
+        }
+
+        button {
+            height: 32px;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+<h1>Proxy setting</h1>
+<form id="proxyForm">
+    <label for="proxyURL">Proxy URL(without trailing slash):</label>
+    <input type="text" id="proxyURL" placeholder="(e.g.): http://localhost:8080">
+    <button type="submit">save</button>
+</form>
+</div>
+<script src="options.js"></script>
+</body>
+</html>
