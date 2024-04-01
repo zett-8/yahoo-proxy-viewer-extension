@@ -1,6 +1,8 @@
 # yahoo-proxy-viewer-extension
 The Yahoo Proxy Viewer Extension is a Chrome extension that enables viewing content of `*.yahoo.co.jp/*` from EEA(欧州経済領域) through a proxy.
 
+![Screenshot 2024-04-01 at 16 37 31](https://github.com/zett-8/yahoo-proxy-viewer-extension/assets/33055097/f4bd6b88-5bc1-4303-a080-b9cb2091dfa4)
+
 ## Requirements
 - A Chromium-based browser 
 - The proxy server set up at [jp-vercel-proxy](https://github.com/zett-8/jp-vercel-proxy)
